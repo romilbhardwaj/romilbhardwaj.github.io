@@ -32,7 +32,7 @@ var svg = d3.select("#graphcontainer").append("svg")
 		d3.event.sourceEvent.stopPropagation(); // to prevent pan functionality from overriding node drag functionality. Put any other 'dragstart' actions here
 });
 
-d3.json("http://http://romilbhardwaj.github.io/socialgraph/GraphWithModularity.json", function(error, graph) {
+d3.json("http://romilbhardwaj.github.io/socialgraph/GraphWithModularity.json", function(error, graph) {
   force
       .nodes(graph.nodes)
       .links(graph.links)
