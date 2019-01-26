@@ -1,0 +1,36 @@
+*The Microsoft Research India Research Fellow Program - Why and How
+Romil Bhardwaj
+
+**What is this note?
+Many juniors from IIITD have been asking me about MSRI's RF program. This is a guide to what the program is, who is it for and how do you get in. 
+
+**About the program
+Rather than me commenting on it, I think Sriram does a great job of quickly giving an overview of the programme here: http://research.microsoft.com/apps/video/default.aspx?id=245080. You can find more about it here http://research.microsoft.com/en-us/labs/india/msrirf.aspx. To put it in one line - this is a largely a 1-2 year "pre-doc" program. Which brings me to my next point..
+
+**(What I think) Who this program is for
+Even though I call it a "pre-doc" program, I think anyone with even the slightest intent of pursuing a career in the tech industry (not just folks interested in a Ph.D.) should try to join this. Some might suggest that only students intent on a Ph.D. should apply, but the reason I say this is because I believe it is myopic to detach academia and research from products and users. This program gives you valuable insight into what it entails to pursue research in an industrial setting and what are the motives that drive this research. This experience is quite relevant if you want to stay in the tech industry and pursue a career building or envisioning products. And the fact that very few get to gain this kind of experience - it might set you apart from the crowd.
+
+**If you're going to graduate soon, you probably fall into one of these three bins:
+ 
+ "I'm pretty sure I want a Ph.D." - Great! If you're getting into a grad school you've wanted to go to with an advisor you want to work with, skip MSR and go for it. However, if you applied this year and want to try for something better, MSRI is a great place to spend your next year and build your resume and skills for getting where you want to be.
+ 
+ "Computer Science seems fun, I quite liked most courses during my undergrad, but I'm not sure if I want a Ph.D. or a Masters or maybe even a MBA" - Join this program and hopefully by the end of two years you'll know what you want to pursue.
+
+ "I have a startup idea and want to pursue entrepreneurship" or "I'm not interested in Computer Science" - There's no reason why you'd want to apply to MSR. Why are you even reading this?
+ 
+**The application and interview process
+It started with a mass email from one of my professors at IIITD about the opportunity. The application itself was huge task, not a simple send-in-your-CV-and-attach-a-cover-letter; it is almost like a mini grad school application, complete with three letters of recommendation and a statement of research. Soon after submitting my application, I was set up a telephonic interview. This interview was mainly about getting to know the applicant better, it didn't have too much technical meat. Following the telephonic interview, a programming challenge was emailed to me which was to be submitted within 24 hours. It wasn't anything too programmatically challenging, just required some thinking out of the box. After this, I was given a paper from SIGCOMM to read and critique. I wouldn't claim the paper was an easy read, but was fairly general in nature with some tedious sections.
+
+Soon after, I was invited to Bangalore for face to face interviews. The whole day was jam packed with a 1 hour talk that I had to present and 7 back to back interviews from 9AM to 5PM. The 1 hour talk is to be given by the candidate which provides a birds eye view of his/her interests and highlights some of the past projects he/she may have done. Be prepared to have your projects grilled and analyzed from every aspect - problem->design->implementation->evaluation. Attended by all the interviewers of the day, this talk forms the base for the rest of the interviews. The interviews can be anything - a mix of puzzles, open ended problems, system design - depends entirely on the interviewer. 
+
+**Advice to potential candidates
+Not much advice I can dole out, multiple books have been written on the topic of tech interviews. Refer to those. MSR specific, say you want to work with the Machine Learning and Optimization group:
+1) Be clear on the group you want to apply to. If you want to work with the Machine Learning and Optimization group, make sure you mention that in your SOR.
+2) I can't stress this enough - have relevant knowledge and be crystal clear on your basics. Sure you can make fancy apps ending in .io domain using Ruby on Rails running on MongoDB, but that's all moot if you're applying to MLO and you can't solve for the Lagrangian dual of the SVM optimization problem.
+3) Have course/side projects to talk about.
+4) Don't be afraid to humblebrag about your projects, but be sure you can answer all questions thrown at you.
+
+**What is it like to work at MSR
+It's pretty cool. <TODO: Elaborate>
+
+Feel free to reach out to me if you have any other questions.
