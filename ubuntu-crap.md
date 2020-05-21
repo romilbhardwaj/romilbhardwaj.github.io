@@ -17,3 +17,7 @@ https://askubuntu.com/questions/689209/how-to-disable-microphone-volume-auto-adj
 ## Touchscreen stops working when resuming from suspend - to fix suspend using the power button and resume.
 
 ## Install this settings powertoy to adjust font scaling for 4k monitors and your inbuilt display
+
+## Getting MX Master 2s to work
+Use logiops
+https://wiki.archlinux.org/index.php/Logitech_MX_Master
