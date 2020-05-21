@@ -1,4 +1,4 @@
-# Shit I have to deal with running Ubuntu 18.03 on X1 Yoga G3 and some solutions
+# Shit I have to deal with running Ubuntu 18.04 on X1 Yoga G3 and some solutions
 
 ## Mic auto adjusting volume in hangouts calls
 https://askubuntu.com/questions/689209/how-to-disable-microphone-volume-auto-adjustment-in-cisco-webex/761103#761103
