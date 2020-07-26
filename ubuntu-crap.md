@@ -5,8 +5,19 @@ https://askubuntu.com/questions/689209/how-to-disable-microphone-volume-auto-adj
 
 ## Getting External GPU dock to work
 * Make sure nomodeset flag is set off to in the grub config
-* Nvidia 436 works for me
-* There's some enable external GPU flag somewhere deep in x11 config that you must set to true
+* Nvidia 436 works for me (Everything broke on 07/25/2020. Had to install Nvidia 440. Which caused x11 to seg fault. Run nvidia-xconfig to generate /etc/X11/xorg.conf)
+* edit the nvidia device in /etc/X11/xorg.conf to add `Option "AllowExternalGpus" "True"`. It should look like:
+```
+Section "Device"
+    Identifier     "Device0"
+    Driver         "nvidia"
+    VendorName     "NVIDIA Corporation"
+    BoardName      "GeForce GTX 1050"
+    BusID          "PCI:4:0:0"
+    Option         "AllowExternalGpus" "True"
+EndSection
+```
+* Reboot and your external display should work, but internal display would still be black. Need to fix that.
 * There was some crap I had to do to get the internal monitor to work I don't remember ARGH
 * THERE IS NO HOTPLUG SUPPORT SO DONT BOTHER
 
