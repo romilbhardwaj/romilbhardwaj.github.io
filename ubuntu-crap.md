@@ -4,6 +4,9 @@
 https://askubuntu.com/questions/689209/how-to-disable-microphone-volume-auto-adjustment-in-cisco-webex/761103#761103
 
 ## Getting External GPU dock to work
+
+Preface: https://www.youtube.com/watch?v=iYWzMvlj2RQ
+
 * Make sure nomodeset flag is set off to in the grub config
 * Nvidia 436 works for me (Everything broke on 07/25/2020. Had to install Nvidia 440. Which caused x11 to seg fault. Run nvidia-xconfig to generate /etc/X11/xorg.conf, but usually that's not necessary)
 * If shit just blows up and you cant get xserver to start, just get rid of every fucking thing
