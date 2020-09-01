@@ -9,7 +9,6 @@ Capo: 2nd Fret
 The transcription is a bit simplified for writing, but for accurate rendition play the chords as follows:
 G -> G6 (Keep the low e open)
 D-> Dsus2
-A-> Asus2
 
 ### Intro
 
