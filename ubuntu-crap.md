@@ -8,7 +8,7 @@ https://askubuntu.com/questions/689209/how-to-disable-microphone-volume-auto-adj
 Preface: https://www.youtube.com/watch?v=iYWzMvlj2RQ
 
 * Make sure nomodeset flag is set off to in the grub config
-* Nvidia 436 works for me (Everything broke on 07/25/2020. Had to install Nvidia 440. Which caused x11 to seg fault. Run nvidia-xconfig to generate /etc/X11/xorg.conf, but usually that's not necessary)
+* ~~Nvidia 436 works for me~~ Everything broke on 07/25/2020. Had to install Nvidia 440.100. Which caused x11 to seg fault. Run nvidia-xconfig to generate /etc/X11/xorg.conf, but usually that's not necessary. All the following steps work on 440.100
 * If shit just blows up and you cant get xserver to start, just get rid of every fucking thing
 ```
 sudo apt-get purge xorg "xserver-*"
@@ -19,7 +19,7 @@ sudo apt-get autoremove
 ```
 * YOU MAY HAVE TO REINSTALL [HWE](https://wiki.ubuntu.com/Kernel/LTSEnablementStack) IF YOU'RE ON 18.04.4
 * lightdm broke with Linux 5.4.0.42, use gdm3. using gdm3 would require setting UseWayland=False in /etc/gdm3/custom.conf.
-* [MUST DO] If you get black screen on your external display and dmesg output on your internal display, create /etc/X11/xorg.conf.d/20-nvidia.conf to add `Option "AllowExternalGpus" "True"`. It should look like:
+* [MUST DO] If you get black screen on your external display and dmesg output on your internal display, create `/etc/X11/xorg.conf.d/20-nvidia.conf` to add `Option "AllowExternalGpus" "True"`. It should look like:
 ```
 Section "Device"
     Identifier     "Device0"
@@ -29,8 +29,13 @@ Section "Device"
     Option         "AllowExternalGpus" "True"
 EndSection
 ```
-* Reboot and your external display should work, but internal display would still be black. Need to fix that.
-* There was some crap I had to do to get the internal monitor to work I don't remember ARGH
+* Reboot and your external display should work, but internal display would still be black. To fix that, create `/etc/X11/xorg.conf.d/21-intel.conf` and add:
+```
+Section "Device"
+    Identifier "Intel Graphics"
+    Driver "intel"
+EndSection
+```
 * THERE IS NO HOTPLUG SUPPORT SO DONT BOTHER
 * Good luck getting CUDA installed
 
