@@ -12,7 +12,7 @@
 * No gaming - if nothing, I could play games from early 2000s on my thinkpad :(
 * Mouse speed is not consistent across displays
 * Inconsistencies when connecting to external non-mac keyboards (command is no longer to the left of the spacebar)
-
+* Bluetooth multi-point is broken to a point it's actually adversarial to other devices sharing the same audio sink. For, example I have my job right earphones connected to both my Mac and my pixel 7. When I close the lid on my Mac  and put it in my backpack and try to play music from my phone, the Mac keeps pausing the music playing on my phone for no reason. This is when the lid is closed and Mac should be sleeping. 
 ## Lifesaver software which make Mac usable
 * Karabiner - for remapping keys
 * Alttab
