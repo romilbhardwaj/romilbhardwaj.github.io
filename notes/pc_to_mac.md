@@ -16,6 +16,8 @@
 ## Lifesaver software which make Mac usable
 * Karabiner - for remapping keys
 * Alttab
+* Rectangle for window management
+* Alfred for spotlight replacement
 * Logitech MX Master
 
 ## Things I like
